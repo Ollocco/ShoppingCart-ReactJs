@@ -1,0 +1,32 @@
+.paymentPage-container.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: rgba(63, 101, 204, 0.795);
+    padding: 90px;
+    
+
+}
+
+.paymentPage-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ajusta el ancho según tus necesidades */
+    margin-top: 40px;
+    Button {
+        margin-top: 20px;
+        margin-bottom: 50px; /* Espaciado superior para separar el botón de los demás elementos */
+        align-self: center; /* Coloca el botón a la derecha */
+    } 
+    h1{
+        align-items:center;
+        color:rgb(255, 255, 255);
+        margin-bottom: 100px;
+    }
+    h2{
+        align-self:center;
+        margin-bottom: 20px
+    }
+}

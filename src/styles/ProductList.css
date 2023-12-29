@@ -1,0 +1,21 @@
+.productList-container {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 64px;
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(5,1fr)
+    }
+    li {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
